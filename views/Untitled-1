@@ -1,0 +1,726 @@
+ <div class="hide_phone">
+            <div class="header shadow "  >
+                    <div class="cont ">
+                        <div class="">
+                             <div class="row">
+                             <div class="col-sm-2">
+                               <div class="image">
+                                   <div class="row">
+                                     <div class="col-sm-4">
+                                             <img src="img/logosmall.png" width="115%">
+                                     </div>
+                                     <div class="col-sm-8" style="position:relative;right:4%">
+                                            <b  class="lab text-center">
+                                                 Greenlab
+                                            </b>
+                                            <b class="lab2 text-center">
+                                                 MICROFACTORY
+                                            </b>
+                                     </div>
+                                   </div>
+                                
+                                 <span style="width:30px;"></span>
+                                 
+                               </div>
+                             </div>
+                             <div class="col-sm-10" >
+                                <div class="row">
+                                     <div class="col-sm-6">
+                                         <nav class="navi float-right">
+                                             <a href="/" style="color: #56D19D">Home</a>
+                                             <a href="about.hmtl">About Us</a>
+                                             <a href="events.html">Events / Publications</a>
+                                             <a href="news.html">News</a>
+                                         </nav>
+                                     </div>
+                                     <div class="col-sm-6">
+                                         <nav class="nav2 float-right">
+                                             <a class="emp-button" href="Greenmarket.html" >GreenMarket</a>
+                                             <a class="button shadow" href="Greenmarket.html">Contact Us</a>
+                                         </nav>
+                                     </div>
+                                </div>
+                             </div>
+                         </div>
+                        </div>
+                    </div> 
+                    
+                    
+                 </div>
+                 <div style="height:87%;overflow-y: scroll">
+                         <div class="landpage ">
+                   
+                                 <div class="row">
+                                     <div class="col-sm-2">  
+                 
+                                     </div>
+                                     <div class="col-sm-8">
+                                       
+                                         <div class="d-flex justify-content-center">
+                                             <div class=" identify">
+                                                   <div class="animated slideInDown">
+                                                    <h1 class="text-center  slideInDown animated " style="font-weight:bolder" >We don't just Innovate</h1>
+                                                    <h3 class="text-center slideInDown animated " style="font-weight:bolder">We Greenovate!</h3>
+                
+                                                   </div>
+                                                     <div class="text-center">
+                                                             <p class="paragraph slideInDown animated ">
+                                                                     GreenLab Microfactory, the first fablab in Nigeria will promote a green, eco-friendly, and sustainable environment, through research and development, education and training, technological and innovation awareness, and other human capital development projects.
+                                                             </p>
+                                                     </div>
+                                                     <div class="text-center" style="padding-top:1%">
+
+                                                            <nav class="nav2 animated bounce ">
+                                                                     <a class="emp-button" href="Greenmarket.html" >Our Works</a>
+                                                                     <a class="button shadow" href="Greenmarket.html">Know More</a>
+                                                            </nav>
+
+                                                     </div><br>
+                 
+                                                     <div class="text-center animated slideInLeft" style="padding-top:30px ">
+                                                         <img src="img/land2.png" width="60%">
+                                                     </div>
+                                             </div>
+                                            
+                                            
+                                         </div>
+                                     </div>
+                                     <div class="col-sm-2">
+                 
+                                     </div>
+                                 </div>
+                          
+                         </div>
+                         <br><br>
+         
+                         <div class="section">
+                         
+                             <div class="container" >
+                                 <div class="row">
+                                         <div class="col-sm-5 abt wow zoomIn" data-wow-duration="2s" data-wow-delay="5s">
+                                                 <h4 style="font-weight: bolder">The Process</h4>
+                                                 <h2 style="font-weight: 800">
+                                                     About Our Work
+                                                 </h2>
+                                                 <p class="paragraph" >
+                                                         The rise of the technology era, and the persistent social, economic, and environmental sustainability issues in the developing economies especially in their rural settings indicated the need for a different approach to ensure sustainability and broad empowerment of individuals irrespective of their ...       
+                                                 </p>
+                                                 <button class="button shadow">Know More</button>
+                                                 
+                                         </div>
+                                         <div class="col-sm-7">
+                                                 <img class="animated infinite zoomIn" src="img/about.png" width="100%">
+                                         </div>
+                                 </div>
+                                
+                             </div>
+         
+                         </div>
+         
+                         <div class="section">
+                             <div class="container"><br>
+                                 <div class="text-center " ><h2 style="font-weight: bolder">What We Do</h2></div> <br><br>
+                                 <div class="row">
+                                     <div class="col-sm-3 ">
+                                        <div class="text-center content shadow infinite animated bounce" style="height:270px">
+                                            <img class="rounded-circle" src="img/eco.png" width="100px"><br><br>
+                                            <h4 style="font-weight:bolder">Workshop</h4>
+                                            <p class="parargaph" style="font-weight:600;line-height:25px;font-size:12px;padding:10px;">
+                                                 Conduct 10 free Open Source workshops by 2019 for great minds to learn and implement.
+                                            </p>
+                                        </div>
+                                     </div>
+                                     <div class="col-sm-3 ">
+                                             <div class="text-center content shadow infinite animated bounce" style="height:270px">
+                                                 <img class="rounded-circle" src="img/eco 3.png" width="85px"><br><br>
+                                                 <h4 style="font-weight:bolder">Workshop</h4>
+                                                 <p class="parargaph" style="font-weight:600;line-height:25px;font-size:12px;padding:10px;">
+                                                  Successfully build energy sustaining open sourced digital fabrication equipment (e.g, Laser cutter, 3D printer, ETC.).                                        </p>
+                                             </div>
+                                     </div>
+                                     <div class="col-sm-3 ">
+                                         <div class="text-center content shadow infinite animated bounce" style="height:270px">
+                                             <img class="rounded-circle" src="img/eco 5.png" width="80px"><br><br>
+                                             <h4 style="font-weight:bolder">Workshop</h4>
+                                             <p class="parargaph" style="font-weight:600;line-height:25px;font-size:12px;padding:10px;">
+                                                     Serve at least 10,000 people within three years of commencement with satisfaction.
+                                             </p>
+                                         </div>
+                                     </div>
+                                     <div class="col-sm-3 ">
+                                             <div class="text-center content shadow infinite animated bounce" style="height:270px">
+                                                 <img class="rounded-circle" src="img/eco.png" width="50%"><br><br>
+                                                 <h4 style="font-weight:bolder">Workshop</h4>
+                                                 <p class="parargaph" style="font-weight:600;line-height:25px;">
+                                                      Conduct 10 free Open Source workshops by 2019 for great minds to learn and implement.
+                                                 </p>
+                                             </div>
+                                     </div>
+         
+                                 </div>
+                             </div>
+                         </div>
+         
+                         <div class="section">
+                             <div class="container infinite flipInX animated" >
+                                     <h2 class="text-center" style="font-weight:bolder">No of Participants impacted so far ...</h2><br><br>
+                                     <div class="row">
+                                            <div class="col-sm-1">
+         
+                                            </div>
+                                            <div class="col-sm-10">
+                                                 <div class="row">
+                                                     <div class="col-sm-3">
+                                                        <div class="text-center">
+                                                             <center><div  style="background-color:#56D19D;width:50%;height:5px;"> </div></center><br>
+                                                             <div class="">
+                                                                 <h2 style="font-weight: bolder">150</h2>
+                                                                 <p style="font-weight:bolder">MAKER EXHIBITION</p>
+                                                             </div>
+                                                        </div>
+                                                     </div>
+                                                     <div class="col-sm-3">
+                                                             <div class="text-center">
+                                                                  <center><div  style="background-color:#D5AE38;width:50%;height:5px;"> </div></center><br>
+                                                                  <div class="">
+                                                                      <h2 style="font-weight: bolder">100</h2>
+                                                                      <p style="font-weight:bolder">1 STUDENT 1 ARDUINO</p>
+                                                                  </div>
+                                                             </div>
+                                                     </div>
+                                                     <div class="col-sm-3">
+                                                             <div class="text-center">
+                                                                  <center><div  style="background-color:#7EA24A;width:50%;height:5px;"> </div></center><br>
+                                                                  <div class="">
+                                                                      <h2 style="font-weight: bolder">12, 250</h2>
+                                                                      <p style="font-weight:bolder">TICK STEM </p>
+                                                                  </div>
+                                                             </div>
+                                                     </div>
+                                                     <div class="col-sm-3">
+                                                             <div class="text-center">
+                                                                  <center><div  style="background-color:#D03722;width:50%;height:5px;"> </div></center><br>
+                                                                  <div class="">
+                                                                      <h2 style="font-weight: bolder">400</h2>
+                                                                      <p style="font-weight:bolder">COMMUNITY PROJECT </p>
+                                                                  </div>
+                                                             </div>
+                                                     </div>
+                                                   
+                                                 
+                                                   
+                                                 </div>
+                                            </div>
+                                            <div class="col-sm-1">
+         
+                                            </div>
+                                     </div>
+                             </div>
+                         </div>
+         
+                         <div class="section">
+                            
+                             <div class="container wow  zoomIn " id="sec">
+                                 <h2 class="text-center" style="font-weight: bolder">Get in Touch Now!</h2>
+                                 <h2 class="text-center">Feel free to drop us a line</h2><br>
+                                 <div class="row">
+                                    <div class="col-sm-3">
+                                     <div class="float-right guy" >
+                                         <img src="img/guy.png" width="75%" class="float-right">
+                                     </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                         <div class="d-flex justify-content-center">
+                                                <div class="shadow form" style="width:100%">
+                                                     <div class=" form">
+                                                         <form class="">
+                                                                 <!-- <div style="width:100%">
+                                                                     
+                                                                     <label>First Name</label><br>
+                                                                     <input type="text" width="100%">  
+                                                                 </div> -->
+                                                                 <div class="row">
+                                                                     <div class="col-sm-6">
+         
+                                                                             <label>First Name</label><br><br>
+                                                                             <input type="text" size="25" placeholder="First Name" height="600px">  
+                                                                         
+                                                                     </div>
+                                                                     <div class="col-sm-6">
+                                                                             <label>Last Name</label><br><br>
+                                                                             <input type="text" size="25" placeholder="Last Name" height="600px">  
+                                                                     </div>
+                                                                     
+         
+                                                                 </div><br><br><br>
+                                                                 <div >
+                                                                         <label>Your Email Address</label><br>
+                                                                         <input type="text" size="55" placeholder="abc@example.com" height="600px">  
+                                                                 </div><br><br><br>
+                                                                 <div >
+                                                                     <label>Which Related problems are you solving ?</label><br>
+                                                                     <select style="width:100%;">
+                                                                         <option></option>
+                                                                         <option>we are facing</option>
+                                                                         <option>we are facing</option>
+                                                                         <option>we are facing</option>
+                                                                         <option>we are facing</option>
+                                                                         <option>we are facing</option>
+                                                                     </select><br><br><br>
+                                                                 </div>
+         
+                                                                 <div>
+                                                                     <label>Type your message</label><br><br>
+                                                                     <textarea style="width: 100%"></textarea>
+                                                                 </div><br><br>
+                                                                 <div>
+                                                                     <button class="button shadow">Submit</button>
+                                                                 </div>
+                                                                 
+                                                         </form>
+                                                     </div>
+                                                </div>
+                                         </div>
+                                     </div>
+                                     <div class="col-sm-3">
+                                         <div class="float-left">
+                                             <img src="img/girl.png" class="girl" width="90%">
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div><br><br><br>
+         
+                         </div>
+                         <div class="section">
+                            <div class="container">
+                                <div class="">
+                                     <div class="row">
+                                         <div class="col-sm-3">
+                                             <h5 style="font-weight:bolder">Contact Us</h5><br>
+                                             <div class="row">
+                                                 <div class="col-sm-1" style="padding-top:3px;"><i class="fa fa-user-circle-o" style="color: #999999" aria-hidden="true"></i></div>
+                                                 <div class="col-sm-10" style="font-size:12px;font-weight:700;color:#999999">+(234) 809-220-5588</div>
+                                                 <div class="col-sm-1"></div>
+                                             </div><br>
+                                              <div class="row">
+                                                 <div class="col-sm-1"  style="padding-top:5px;"><i class="fa fa-map-marker"  style="color: #999999" aria-hidden="true"></i></div>
+                                                 <div class="col-sm-10"  style="font-size:12px;font-weight:700;color:#999999">SW9/1148, Orita Challenge Ibadan, Oyo state, Nigeria.</div>
+                                                 <div class="col-sm-1"></div>
+                                             </div><br>
+                                              <div class="row">
+                                                 <div class="col-sm-1"  style="padding-top:3px;"><i class="fa fa-envelope"  style="color: #999999" aria-hidden="true"></i></div>
+                                                 <div class="col-sm-10" style="font-size:12px;font-weight:700;color:#999999">info@greenlab-microfactory.org</div>
+                                                 <div class="col-sm-1"></div>
+                                             </div><br>
+         
+                                         </div>
+                                         <div class="col-sm-3">
+                                                 <h5 style="font-weight:bolder">Our Company </h5><br>
+                                                <div> <a href="about.html"  style="font-size:12px;font-weight:700;color:#999999"> About</a></div><br>
+                                                <div> <a href="about.html"  style="font-size:12px;font-weight:700;color:#999999"> Services</a></div><br>
+                                                <div> <a href="events.html"  style="font-size:12px;font-weight:700;color:#999999"> Publications</a></div><br>
+                                                <div> <a href="about.html"  style="font-size:12px;font-weight:700;color:#999999"> Contact</a></div><br>
+                                             
+         
+                                                
+                                         </div>
+                                         <div class="col-sm-3">
+                                                 <h5 style="font-weight:bolder">Recent Update </h5><br>
+                                                 <div> <a href="events.html"  style="font-size:12px;font-weight:700;color:#999999"> Latest News</a></div><br>
+                                                <div> <a href="socials.html"  style="font-size:12px;font-weight:700;color:#999999"> Socials</a></div><br>
+                                                <div> <a href="greenmarket"  style="font-size:12px;font-weight:700;color:#999999"> GreenMarket</a></div><br>
+                                                <div> <a href="contact.html"  style="font-size:12px;font-weight:700;color:#999999"> Contact</a></div><br>
+                                             
+         
+                                         </div> 
+                                          <div class="col-sm-3">
+                                             <h5 style="font-weight:bolder">Contact Us</h5><br>
+                                             <a href="" style="font-size:20px;color:#707070;margin-right:25px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                             <a href="" style="font-size:20px;color:#707070;margin-right:25px;"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                             <a href="" style="font-size:20px;color:#707070;margin-right:25px;"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                             <a href="" style="font-size:20px;color:#707070"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+         
+         
+                                            
+                                             
+                                         </div>
+                                     </div>
+                                </div>
+                            </div>
+                         </div>
+         
+
+                         <div class="section">
+                                 <div class="">
+                                     <div class="">
+                                         <img src="img/footer.png" width="100%" />
+                                          
+                                     </div>
+                                 </div>
+                              </div>
+                 </div>
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="hide_main"> 
+            <div class="main_content shadow">
+                <div class="container">
+                    <div class="row">
+                        <div class="header" >
+                            <img src="img/Logo only.png" width="75%" >
+                        </div>
+                        <div class="navigation">
+                            <i data-toggle="modal" data-target="#exampleModalLong" class="fa fa-bars" aria-hidden="true" data-dismiss="modal"></i> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modale" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                        <button type="button" class="close navi" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="float-right" style="margin-right: 6px;cursor: pointer">&times;</span>
+                        </button> 
+                    <div class="modal-body">
+                        <nav style="margin-top:2%">
+                            <ul>
+                                <li><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="index.html">Home</a></li>
+                                <li><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="index.html">about us</a></li>
+                                <li  ><i class="fa fa-home " aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="index.html">events / publications</a></li>
+                                <li><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="index.html">news</a></li>
+                                <li class="emp-button"><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="index.html">Greenmarket</a></li><br>
+                                <li class="button"><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="index.html">contact us</a></li>
+                            </ul>
+                            
+                        </nav>
+                    </div>
+                 
+                  </div>
+            </div>
+           
+       </div>
+       <div class="section" style="height:85%;overflow-y:scroll">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <div class=" identify">
+                         <div class="text-center" style="padding-top:30px ">
+                                <img class="animated slideInDown " src="img/land2.png" width="100%">
+                            </div><br><br>
+                         <!-- <div class="shadow" style="background-color:#56D19D;padding-top:30px;border-radius: 100%;"> -->
+                            <h3 class="text-center animated slideInLeft " style="font-weight:bolder;text-decoration:underline ;color:#56D19D" >We don't just Innovate</h3>
+                            <h3 class="text-center animated slideInLeft " style="font-weight:bolder;text-decoration: underline;color:#56D19D">We Greenovate!</h3><br>
+
+                         <!-- </div><br> -->
+                            <div class="text-center">
+                                    <p class="paragraph animated rotateIn" id="sec1">
+                                            GreenLab Microfactory, the first fablab in Nigeria will promote a green, eco-friendly, and sustainable environment, through research and development, education and training, technological and innovation awareness, and other human capital development projects.
+                                    </p>
+                            </div>
+                            <div class="text-center animated bounce" style="padding-top:1%;">
+                                    <div class="nav2 d-flex justify-content-center ">
+                                            <a class="emp-button" href="Greenmarket.html" style="font-size:11px" >Our Works</a>
+                                            <a class="button shadow" href="Greenmarket.html" style="font-size:11px">Know More</a><br><br>
+                                       
+                                    </div>
+                            </div><br><br>
+
+                           
+                    </div><br><br><br>
+                   
+                   
+                </div>
+            </div>
+
+            <div class="container" style="padding-top:10%" >
+                <div class="row">
+                        <div class="col-sm-6">
+                                <h4 style="font-weight: bolder">The Process</h4>
+                                <h2 style="font-weight: 800">
+                                    About Our Work
+                                </h2>
+                        </div>
+                        <div class="col-sm-7">
+                                <br><br>
+                                <img class=" animated zoomIn infinite" src="img/about.png" width="100%">
+                        </div>
+                        <div class="col-sm-5 abt " style="padding:8% 5%" > 
+                               
+                           <div class="animated slideInUp infinite"  >
+                                <p class="paragraph  " style="text-align:center;line-height: 30px" >
+                                        The rise of the technology era, and the persistent social, economic, and environmental sustainability issues in the developing economies especially in their rural settings indicated the need for a different approach to ensure  ...       
+                                </p>
+                                <div class="text-center">
+                                        <button class="button shadow float-center" style="padding:10px 40px">Know More</button>
+                                </div>
+                           </div>
+                                
+                        </div>
+                       
+                </div>
+               
+            </div>
+            <div class="container">
+                <h3 style="font-weight:bolder">What We Do</h3>
+            
+                  
+                    <div class="col-sm-3 shadow " style="width: 100%;margin-top: 40px">
+                            <div class="text-center content animated zoomIn infinite " style="height:270px">
+                                <img class="rounded-circle" src="img/eco.png" width="100px"><br><br>
+                                <h4 style="font-weight:bolder">Workshop</h4>
+                                <p class="parargaph" style="font-weight:600;line-height:25px;font-size:12px;padding:10px;">
+                                     Conduct 10 free Open Source workshops by 2019 for great minds to learn and implement.
+                                </p>
+                            </div>
+                    </div><br><br>
+                    <div class="col-sm-3 shadow " style="width: 100%;margin-top: 10px">
+                        <div class="text-center content animated slideInRight infinite " style="height:;">
+                                    <img class="rounded-circle" src="img/eco 3.png" width="85px"><br><br>
+                                    <h4 style="font-weight:bolder">Workshop</h4>
+                                    <p class="parargaph" style="font-weight:600;line-height:25px;font-size:12px;padding:10px;">
+                                     Successfully build energy sustaining open sourced digital fabrication equipment (e.g, Laser cutter, 3D printer, ETC.).                                        </p>
+                            </div>
+                    </div><br><br>
+
+                    <div class="col-sm-3 shadow " style="width: 100%;margin-top: 10px">
+                            <div class="text-center content animated zoomIn infinite " style="height:;">
+                                    <img class="rounded-circle" src="img/eco 5.png" width="80px"><br><br>
+                                    <h4 style="font-weight:bolder">Workshop</h4>
+                                    <p class="parargaph" style="font-weight:600;line-height:25px;font-size:12px;padding:10px;">
+                                            Serve at least 10,000 people within three years of commencement with satisfaction.
+                                    </p>
+                            </div>
+                    </div><br><br>
+
+                    <div class="col-sm-3 shadow " style="width: 100%;margin-top: 10px">
+                            <div class="text-center content animated slideInLeft infinite " style="height:270px">
+                                <img class="rounded-circle" src="img/eco.png" width="100px"><br><br>
+                                <h4 style="font-weight:bolder">Workshop</h4>
+                                <p class="parargaph" style="font-weight:600;line-height:25px;font-size:12px;padding:10px;">
+                                     Conduct 10 free Open Source workshops by 2019 for great minds to learn and implement.
+                                </p>
+                            </div>
+                    </div><br><br>
+
+
+
+
+                    <div class="section animated swing ">
+                            <div class="container shadow" style="background-color:#56D19D;padding:20px;border-radius:3%">
+                                    <h3 class="text-center" style="font-weight:bolder;text-align: center;color:white">No of Participants impacted so far.</h3>
+                                    <div class="row">
+                                           <div class="col-sm-1">
+        
+                                           </div>
+                                           <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                       <div class="text-center">
+                                                            <center><div  style="background-color:#56D19D;width:50%;height:5px;"> </div></center><br>
+                                                            <div class="">
+                                                                <h2 style="font-weight: bolder;color:white">150</h2>
+                                                                <p style="font-weight:bolder;color:white">MAKER EXHIBITION</p>
+                                                            </div>
+                                                       </div>
+                                                    </div><br>
+                                                    <div class="col-sm-3">
+                                                            <div class="text-center">
+                                                                 <center><div  style="background-color:#D5AE38;width:50%;height:5px;"> </div></center><br>
+                                                                 <div class="">
+                                                                     <h2 style="font-weight: bolder;color:white">100</h2>
+                                                                     <p style="font-weight:bolder;color:white">1 STUDENT 1 ARDUINO</p>
+                                                                 </div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                            <div class="text-center">
+                                                                 <center><div  style="background-color:#7EA24A;width:50%;height:5px;"> </div></center><br>
+                                                                 <div class="">
+                                                                     <h2 style="font-weight: bolder;color:white">12, 250</h2>
+                                                                     <p style="font-weight:boldercolor:white;color:white">TICK STEM </p>
+                                                                 </div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                            <div class="text-center">
+                                                                 <center><div  style="background-color:#D03722;width:50%;height:5px;"> </div></center><br>
+                                                                 <div class="">
+                                                                     <h2 style="font-weight: bolder;color:white">400</h2>
+                                                                     <p style="font-weight:bolder;color:white">COMMUNITY PROJECT </p>
+                                                                 </div>
+                                                            </div>
+                                                    </div>
+                                                  
+                                                
+                                                  
+                                                </div>
+                                           </div>
+                                           <div class="col-sm-1">
+        
+                                           </div>
+                                    </div>
+                            </div>
+                        </div>
+                  
+
+                   
+                    
+           
+            </div>
+
+
+            <div class="section">
+                            
+                    <div class="container"><br><br>
+                        <h2 class="text-center" style="font-weight: bolder">Get in Touch Now!</h2>
+                        <h2 class="text-center">Feel free to drop us a line</h2><br>
+                        <div class="row">
+                           <!-- <div class="col-sm-3">
+                            <div class="float-right guy" >
+                                <img src="img/guy.png" width="75%" class="float-right">
+                            </div>
+                           </div> -->
+                           <div class="col-sm-6">
+                                <div class="d-flex shadow justify-content-center ">
+                                       <div class=" form" style="width:100%">
+                                            <div class=" form">
+                                                <form class="">
+                                                        <!-- <div style="width:100%">
+                                                            
+                                                            <label>First Name</label><br>
+                                                            <input type="text" width="100%">  
+                                                        </div> -->
+                                                     
+                                                            <div>
+
+                                                                    <label>First Name</label><br>
+                                                                    <input type="text" size="25" placeholder="First Name" height="600px">  
+                                                                
+                                                            </div><br><br>
+
+                                                            <div>
+                                                                    <label>Last Name</label><br>
+                                                                    <input type="text" size="25" placeholder="Last Name" height="600px">  
+                                                            </div><br><br>
+                                                        <div >
+                                                                <label>Your Email Address</label><br>
+                                                                <input type="text" size="55" placeholder="abc@example.com" height="600px">  
+                                                        </div><br><br>
+                                                        <div >
+                                                            <label>Which Related problems are you solving ?</label><br>
+                                                            <select style="width:100%;">
+                                                                <option></option>
+                                                                <option>we are facing</option>
+                                                                <option>we are facing</option>
+                                                                <option>we are facing</option>
+                                                                <option>we are facing</option>
+                                                                <option>we are facing</option>
+                                                            </select><br><br>
+                                                        </div>
+
+                                                        <div>
+                                                            <label>Type your message</label><br><br>
+                                                            <textarea style="width: 100%"></textarea>
+                                                        </div><br><br>
+                                                        <div>
+                                                            <button class="button shadow">Submit</button>
+                                                        </div>
+                                                        
+                                                </form>
+                                            </div>
+                                       </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-sm-3">
+                                <div class="float-left">
+                                    <img src="img/girl.png" class="girl" width="90%">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div><br><br><br>
+
+                </div>
+
+                <div class="section">
+                        <div class="container">
+                            <div class="">
+                                 <div class="row">
+                                     <div class="col-sm-3">
+                                         <h5 style="font-weight:bolder">Contact Us</h5>
+                                         <div class="row">
+                                             <div class="floar-left" style="padding-top:3px;"><i class="fa fa-user-circle-o" style="color: #999999" aria-hidden="true"></i></div>
+                                             <div class="col-sm-10" style="font-size:12px;font-weight:700;color:#999999">+(234) 809-220-5588</div>
+                                             <div class="col-sm-1"></div>
+                                         </div><br>
+                                          <div class="row">
+                                             <!-- <div class="col-sm-1"  style="padding-top:5px;"><i class="fa fa-map-marker"  style="color: #999999" aria-hidden="true"></i></div> -->
+                                             <div class="col-sm-10"  style="font-size:12px;font-weight:700;color:#999999;margin-top: -50px"><i class="fa fa-map-marker"  style="color: #999999;margin-top:50px;" aria-hidden="true"></i> SW9/1148, Orita Challenge Ibadan, Oyo state, Nigeria.</div>
+                                             <div class="col-sm-1"></div>
+                                         </div><br>
+                                          <div class="row">
+                                             <!-- <div class="col-sm-1"  style="padding-top:3px;"></div> -->
+                                             <div class="col-sm-10" style="font-size:12px;font-weight:700;color:#999999"><i class="fa fa-envelope"  style="color: #999999" aria-hidden="true"></i>info@greenlab-microfactory.org</div>
+                                             <div class="col-sm-1"></div>
+                                         </div><br>
+     
+                                     </div>
+                                     <div class="col-sm-3">
+                                             <h5 style="font-weight:bolder">Our Company </h5><br>
+                                            <div> <a href="about.html"  style="font-size:12px;font-weight:700;color:#999999"> About</a></div><br>
+                                            <div> <a href="about.html"  style="font-size:12px;font-weight:700;color:#999999"> Services</a></div><br>
+                                            <div> <a href="events.html"  style="font-size:12px;font-weight:700;color:#999999"> Publications</a></div><br>
+                                            <div> <a href="about.html"  style="font-size:12px;font-weight:700;color:#999999"> Contact</a></div><br>
+                                         
+     
+                                            
+                                     </div>
+                                     <div class="col-sm-3">
+                                             <h5 style="font-weight:bolder">Recent Update </h5><br>
+                                             <div> <a href="events.html"  style="font-size:12px;font-weight:700;color:#999999"> Latest News</a></div><br>
+                                            <div> <a href="socials.html"  style="font-size:12px;font-weight:700;color:#999999"> Socials</a></div><br>
+                                            <div> <a href="greenmarket"  style="font-size:12px;font-weight:700;color:#999999"> GreenMarket</a></div><br>
+                                            <div> <a href="contact.html"  style="font-size:12px;font-weight:700;color:#999999"> Contact</a></div><br>
+                                         
+     
+                                     </div> 
+                                      <div class="col-sm-3">
+                                         <h5 style="font-weight:bolder">Contact Us</h5><br>
+                                         <a href="" style="font-size:20px;color:#707070;margin-right:25px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                         <a href="" style="font-size:20px;color:#707070;margin-right:25px;"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                         <a href="" style="font-size:20px;color:#707070;margin-right:25px;"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                         <a href="" style="font-size:20px;color:#707070"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+     
+     
+                                        
+                                         
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                     </div>
+     
+                     <div class="section">
+                             <div class="">
+                                 <div class="">
+                                     <img src="img/footer.png" width="100%" />
+                                      
+                                 </div>
+                             </div>
+                          </div>
+            
+       </div>
+       

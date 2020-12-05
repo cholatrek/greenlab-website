@@ -1,0 +1,766 @@
+<html>
+    <head>
+        <title>
+            Greenlab-Microfactory | Events
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  type="text/css" href="/css/bootstrap.css"  >
+        <link  rel="stylesheet"  type="text/css" href="/css/style.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" crossorigin="anonymous" />
+    </head>
+    <body>
+       <div class="hide_phone">
+        <%- include('./partials/navbar'); %>
+        
+                <div style="height:90%;overflow-y:scroll">
+                        <div class="section">
+                                <div class="container " >
+                                       <h2 class="text-center animated items" data-transition="slideInDown" style="font-weight:bolder;text-transform:uppercase">OUR EVENTS AND PUBLICATIONS</h2><br>
+                                   <div class="row">
+                                       <div class="col-sm-3">
+                   
+                                       </div>
+                                       <div class="col-sm-6 animated items" data-transition="slideInLeft">
+                                               <p class="text-center" style="font-size: 16px;">These are some of the shots from Our Programmes and we've got publications you could download</p>
+                   
+                                       </div>
+                                       <div class="col-sm-3">
+                   
+                                       </div>
+                                   </div>
+                   
+                                   </div>
+                            </div>
+                   
+                            <div style="background-color: whitesmoke; min-height:200px;padding: 20px 20px" >
+                                   <b><h2 class="text-center animated items" data-transition="slideInUp" style="font-weight:bolder;">No of Participants Impacted So far</h2></b>
+                           </div>
+                            <div class="">
+                               <div class="container animated  items " data-transition="slideInUp" >
+                                  
+                                      
+                                      
+                                        
+                                             
+                                     
+                                                   <div class="row">
+                                                       <a><div class="col-sm-3 " >
+                                                                <a href="/event/maker">
+                                                                     <div class="text-center shadow boxes" >
+                                                                             <center><div  style="background-color:rgb(18, 167, 105);width:50%;height:5px;"> </div></center><br>
+                                                                             <div class="">
+                                                                                 <h2 style="font-weight: bolder">150</h2>
+                                                                                 <p style="font-weight:bolder;font-size:25px">MAKER EXHIBITION</p>
+                                                                             </div>
+                                                                        </div>
+                                                                </a>
+                                                             </div></a>
+                                                       <div class="col-sm-3" >
+                                                              <a href="/event/1s1"> <div class="text-center shadow boxes" >
+                                                                        <center><div  style="background-color:#D5AE38;width:50%;height:5px;"> </div></center><br>
+                                                                        <div class="">
+                                                                            <h2 style="font-weight: bolder">100</h2>
+                                                                            <p style="font-weight:bolder;font-size:25px">1 STUDENT 1 ARDUINO</p>
+                                                                        </div>
+                                                                   </div>
+                                                                </a>
+                                                       </div>
+                                                       <div class="col-sm-3 " >
+                                                               <a href="/event/tick" >
+                                                                        <div class="text-center shadow boxes" >
+                                                                                        <center><div  style="background-color:#7EA24A;width:50%;height:5px;"> </div></center><br>
+                                                                                        <div class="">
+                                                                                            <h1 style="font-weight: bolder">20 000</h1>
+                                                                                            <p style="font-weight:bolder;font-size:25px">TICK<br> STEM </p>
+                                                                                        </div>
+                                                                                   </div>
+                                                               </a>
+                                                       </div>
+                                                       <div class="col-sm-3" >
+                                                              <a href="/event/community">
+                                                                <div class="text-center shadow boxes" >
+                                                                    <center><div  style="background-color:#D03722;width:50%;height:5px;"> </div></center><br>
+                                                                    <div class="">
+                                                                        <h2 style="font-weight: bolder">400</h2>
+                                                                        <p style="font-weight:bolder;font-size:25px">COMMUNITY PROJECT </p>
+                                                                    </div>
+                                                               </div>
+                                                              </a>
+                                                       </div>
+                                                     
+                                                   
+                                                     
+                                                   </div>
+                                              
+                                           
+                                   
+                               </div>
+                           </div>
+                   
+                           
+                           <div class="section">
+                               <div class="container">
+                                 <div class="animated items" data-transition="bounce">
+                                                <div class="row shadow boxer" >
+                                                                <h1 class="bolder">Maker Exhibitions</h1><br>
+                                                                <p class="">Shots from the Greenlab-Microfactory Maker exhibition accompained with a 3D experience comprising of three schools in Akure City (FUTA Staff School, Mountain Top and Best Solution International School), held at Premier Hub (Akure, Ondo state) to round up the One Student One Arduino programame in Akure. Visit our facebook page to view more . you can also get videos on this event from our youtube channel.</p>
+                                                             <div class="col-sm-3">
+                                                                 <div class="text-center shadow">
+                                                                         <img class="" src="/uploads/<%= eventMaker[0].eventImages[0].filename %>" width="100%" height="180px">
+                                                                 </div>
+                                                             </div>
+                                                             <div class="col-sm-3">
+                                                                     <div class="text-center shadow">
+                                                                             <img class="" src="/uploads/<%= eventMaker[0].eventImages[1].filename %>" width="100%" height="180px">
+                                                                     </div>
+                                                             </div>
+                                                             <div class="col-sm-3">
+                                                                     <div class="text-center shadow">
+                                                                             <img class="" src="/uploads/<%= eventMaker[0].eventImages[2].filename %>" width="100%" height="180px">
+                                                                     </div>
+                                                             </div>
+                                                             <div class="col-sm-3">
+                                                                     <div class="text-center shadow">
+                                                                             <img class="" src="/uploads/<%= eventMaker[0].eventImages[3].filename %>" width="100%" height="180px">
+                                                                     </div>
+                                                             </div>
+                         
+                                                            
+                                                             </div>
+                                 </div>
+                                    <div class="-text-center buttonfloat">
+                                           <center> <a href="/event/maker"><button class="button shadow">View More Maker Exhibition</button></a></center>
+                                        </div>
+
+
+                               </div>
+
+                           </div>
+
+
+                           <div class="section">
+                                <div class="container">
+                                  <div class="animated items" data-transition="bounce">
+                                                <div class="row shadow boxer">
+                                                                <h1 class="bolder">One Student One Arduino</h1>
+                                                                <p class="">In continuation of the strides made in our first community project 'Ajumose', and with the support of everyone, GreenLab Microfactory has officially commenced her new project tagged 'One student One Arduino’. This is a unique educational project to encourage innovations right from the cradle level, that is, from the primary education level in Nigeria.The 'One Student One Arduino' classes will be conducted triannually, that is, every 4 months (January to April, May to August, and September to December), with fresh participants enrolled at every new phase. To all those who supported us in making this project a reality, we say a very big THANK YOU!
+
+                                                                </p>
+                                                             <div class="col-sm-3">
+                                                                 <div class="text-center shadow">
+                                                                         <img class="" src="/uploads/<%= event1s1[0].eventImages[0].filename %>" width="100%" height="180px">
+                                                                 </div>
+                                                             </div>
+                                                             <div class="col-sm-3">
+                                                                     <div class="text-center shadow">
+                                                                             <img class="" src="/uploads/<%= event1s1[0].eventImages[1].filename %>" width="100%" height="180px">
+                                                                     </div>
+                                                             </div>
+                                                             <div class="col-sm-3">
+                                                                     <div class="text-center shadow">
+                                                                             <img class="" src="/uploads/<%= event1s1[0].eventImages[2].filename %>" width="100%" height="180px">
+                                                                     </div>
+                                                             </div>
+                                                             <div class="col-sm-3">
+                                                                     <div class="text-center shadow">
+                                                                             <img class="" src="/uploads/<%= event1s1[0].eventImages[3].filename %>" width="100%" height="180px">
+                                                                     </div>
+                                                             </div>
+                         
+                                                            
+                                                </div>
+                                  </div>
+                                     <div class="-text-center buttonfloat">
+                                            <center> <a href="/event/1s1"><button class="button shadow">View More One Student One Arduino</button></a></center>
+                                         </div>
+ 
+ 
+                                </div>
+ 
+                            </div>
+
+
+                            <div class="section">
+                                    <div class="container">
+                                        <div class="animated items" data-transition="bounce">
+                                                        <div class="row shadow boxer">
+                                                                        <h1 class="bolder">TICK STEM Campaign</h1>
+                                                                        <p class="">TICK, which stands for Talk is Cheap Kit, is a STEM kit developed by Greenlab micro-factory to effectively propagate and educate primary and junior secondary school student about science and technology.
+                                                                                TICK, equipped with 3D pens, circuit boards,sewing machines and even its own power generation system, is the miniaturized version of FabLab and other digital fabrication laboratories. Our intention is to find and nurture our Changemakers from the cradle.... Talk is Cheap - It's time to work</p>
+                                                                     <div class="col-sm-3">
+                                                                         <div class="text-center shadow">
+                                                                                 <img class="" src="/uploads/<%= eventTick[0].eventImages[0].filename %>" width="100%" height="180px">
+                                                                         </div>
+                                                                     </div>
+                                                                     <div class="col-sm-3">
+                                                                             <div class="text-center shadow">
+                                                                                     <img class="" src="/uploads/<%= eventTick[0].eventImages[1].filename %>" width="100%" height="180px">
+                                                                             </div>
+                                                                     </div>
+                                                                     <div class="col-sm-3">
+                                                                             <div class="text-center shadow">
+                                                                                     <img class="" src="/uploads/<%= eventTick[0].eventImages[2].filename %>" width="100%" height="180px">
+                                                                             </div>
+                                                                     </div>
+                                                                     <div class="col-sm-3">
+                                                                             <div class="text-center shadow">
+                                                                                     <img class="" src="/uploads/<%= eventTick[0].eventImages[3].filename %>" width="100%" height="180px">
+                                                                             </div>
+                                                                     </div>
+                                 
+                                                                    
+                                                                     </div>
+                                                                     <div class="-text-center buttonfloat">
+                                                                            <center> <a href="/event/tick"><button class="button shadow">View More TICK STEM</button></a></center>
+                                                        </div>
+                                        </div>
+     
+     
+                                    </div>
+     
+                                </div>
+
+                                <div class="section">
+                                        <div class="container">
+                                           <div class="animated items" data-transition="bounce">
+                                                        <div class="row shadow boxer">
+                                                                        <h1 class="bolder">Community Development Project</h1>
+                                                                        <p class="">Ajumose in the Yoruba language means collaboration, which is the inspiration behind this landmark event. The goal of this workshop is to encourage the mentality of Do-It-Yourself (DIY) and grow the open / distributive economy in the Nigerian community.</p>
+                                                                     <div class="col-sm-3">
+                                                                         <div class="text-center shadow">
+                                                                                 <img class="" src="/uploads/<%= eventCommunity[0].eventImages[0].filename %>" width="100%" height="180px">
+                                                                         </div>
+                                                                     </div>
+                                                                     <div class="col-sm-3">
+                                                                             <div class="text-center shadow">
+                                                                                     <img class="" src="/uploads/<%= eventCommunity[0].eventImages[1].filename %>" width="100%" height="180px">
+                                                                             </div>
+                                                                     </div>
+                                                                     <div class="col-sm-3">
+                                                                             <div class="text-center shadow">
+                                                                                     <img class="" src="/uploads/<%= eventCommunity[0].eventImages[2].filename %>" width="100%" height="180px">
+                                                                             </div>
+                                                                     </div>
+                                                                     <div class="col-sm-3">
+                                                                             <div class="text-center shadow">
+                                                                                     <img class="" src="/uploads/<%= eventCommunity[0].eventImages[3].filename %>" width="100%" height="180px">
+                                                                             </div>
+                                                                     </div>
+                                 
+                                                                    
+                                                                     </div>
+                                                                     <div class="-text-center buttonfloat">
+                                                                            <center> <a href="/event/community"><button class="button shadow">View More Community Projects Exhibition</button></a></center>
+                                                                         </div>
+                                 
+                                           </div>
+         
+                                        </div>
+         
+                                    </div>
+                        <%- include('./partials/publications'); %>
+
+                           <div class="section p-8 animated items" data-transition="zoomIn">
+                                        <div class="container" style="width: 60%">
+                                            <div class="shadow justify-content-center p-5">
+                                                    <h3 class="text-center bolder">DO YOU WANT TO PARTICIPATE ?</h3><br>
+                                                    <div class="text-center"  >
+                                                        <div class="row" >
+                                                            <div class="col-sm-2">
+    
+                                                            </div>
+                                                            <div class="col-sm-8">
+                                                                    <p style="font-size:14px;line-height: 27px;" class="bolder"> Do you have a primary School or Junior secondary School and you would like us to educate your pupils?
+    
+                                                                        </p>
+    
+                                                                       <a href="/idea">
+                                                                            <button class="shadow button">Contact Us</button>
+                                                                       </a>
+                                                            </div>
+                                                            <div class="col-sm-2">
+    
+                                                            </div>
+                                                        </div>
+                                                       
+                                                    </div>
+                                            </div>
+                                        </div>
+                                     </div>
+
+                                   
+                      <!-- footer -->
+
+                      <%- include('./partials/footer'); %>
+                </div>
+       </div>
+
+       
+       <div class="hide_main">
+        <%- include('./partials/navbarMobile'); %>
+                <div class="" style="overflow-y:scrollbar; height:89% ">
+                               
+                
+                               <div class="section">
+                                        <div class="container " ><br><br>
+                                              <b> <h4 class="text-center animated items" data-transition="slideInDown" style="font-weight:bolder;text-transform:uppercase;line-height: 29px;">OUR EVENTS AND<br> PUBLICATIONS</h4></b><br>
+                                           <div class="row">
+                                               <div class="col-sm-3">
+                           
+                                               </div>
+                                               <div class="col-sm-6 animated items" data-transition="slideInLeft">
+                                                       <p class="text-center" style="font-size: 14px;">These are some of the shots from Our Programmes and we've got publications you could download</p>
+                           
+                                               </div>
+                                               <div class="col-sm-3">
+                           
+                                               </div>
+                                           </div>
+                           
+                                           </div>
+                                    </div>
+                
+                <div class="section">
+
+                                <div style="background-color: whitesmoke;padding: 20px 20px" >
+                                                <b><h3 class="text-center animated items" data-transition="slideInRight" style="font-weight:bolder;">No of Participants Impacted So far.</h3></b>
+                                </div>
+                </div>
+
+               
+                
+
+                <div class="">
+                                <div class="container animated  items " data-transition="" >
+                                   
+                                       
+                                       
+                                         
+                                              
+                                      
+                                                    <div class="row">
+                                                        <a><div class="col-sm-3 " >
+                                                                 <a href="/event/maker">
+                                                                      <div class="text-center shadow boxes" >
+                                                                              <center><div  style="background-color:rgb(18, 167, 105);width:50%;height:5px;"> </div></center><br>
+                                                                              <div class="">
+                                                                                  <h2 style="font-weight: bolder">150</h2>
+                                                                                  <b><p style="font-weight:bolder;font-size:15px">MAKER EXHIBITION</p></b>
+                                                                              </div>
+                                                                         </div>
+                                                                 </a>
+                                                              </div></a><br><br>
+                                                        <div class="col-sm-3" >
+                                                               <a href="/event/1s1"> <div class="text-center shadow boxes" >
+                                                                         <center><div  style="background-color:#D5AE38;width:50%;height:5px;"> </div></center><br>
+                                                                         <div class="">
+                                                                             <h2 style="font-weight: bolder">100</h2>
+                                                                            <b> <p style="font-weight:bolder;font-size:15px">1 STUDENT 1 ARDUINO</p></b>
+                                                                         </div>
+                                                                    </div>
+                                                                 </a>
+                                                        </div><br><br>
+                                                        <div class="col-sm-3 " >
+                                                                <a href="/event/tick" >
+                                                                         <div class="text-center shadow boxes" >
+                                                                                         <center><div  style="background-color:#7EA24A;width:50%;height:5px;"> </div></center><br>
+                                                                                         <div class="">
+                                                                                             <h2 style="font-weight: bolder">20, 000</h2>
+                                                                                            <b> <p style="font-weight:bolder;font-size:15px">TICK STEM </p></b>
+                                                                                         </div>
+                                                                                    </div>
+                                                                </a>
+                                                        </div><br><br>
+                                                        <div class="col-sm-3" >
+                                                               <a href="/event/community">
+                                                                 <div class="text-center shadow boxes" >
+                                                                     <center><div  style="background-color:#D03722;width:50%;height:5px;"> </div></center><br>
+                                                                     <div class="">
+                                                                         <h2 style="font-weight: bolder">400</h2>
+                                                                        <b> <p style="font-weight:bolder;font-size:15px">COMMUNITY PROJECT </p></b>
+                                                                     </div>
+                                                                </div>
+                                                               </a>
+                                                        </div><br><br>
+                                                      
+                                                    
+                                                      
+                                                    </div>
+                                               
+                                            
+                                    
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                        <div class="container">
+                                          <div class="animated items" data-transition="bounce">
+                                                        
+                                                                <div class="row shadow boxer" >
+                                                                         <b><h3 class="bolder">Maker Exhibition</h3></b><br>
+                                                                         <p id="minor" class="" style="font-weight:400;font-size:13px">Shots from the Greenlab-Microfactory Maker exhibition accompained with a 3D experience comprising of three schools in Akure City (FUTA Staff School, Mountain Top and Best Solution International School). <span style="color:red;cursor:pointer" id="show" >Read More...</span>
+                                                                        <span id="major" class="animated items" data-transition="fadeIn" >This held at Premier Hub (Akure, Ondo state) to round up the One Student One Arduino programame in Akure. Visit our facebook page to view more . you can also get videos on this event from our youtube channel.</span></p>
+                                                                         <div class="col-sm-3">
+                                                                          <div class="text-center shadow">
+                                                                                <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                                                                                        <div class="carousel-inner">
+                                                                                          <div class="carousel-item active" >
+                                                                                            <center><img class="d-block w-100" src="/uploads/<%= eventMaker[0].eventImages[0].filename %>" height="190px" alt="First slide"></center>
+                                                                                          </div>
+                                                                                          <div class="carousel-item">
+                                                                                            <img class="d-block w-100" src="/uploads/<%= eventMaker[0].eventImages[1].filename %>" height="190px" alt="Second slide">
+                                                                                          </div>
+                                                                                          <div class="carousel-item">
+                                                                                            <img class="d-block w-100" src="/uploads/<%= eventMaker[0].eventImages[2].filename %>" height="190px" alt="Third slide">
+                                                                                          </div>
+                                                                                        </div>
+                                                                                        <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                                                                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                                          <span class="sr-only">Previous</span>
+                                                                                        </a>
+                                                                                        <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                                                                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                                          <span class="sr-only">Next</span>
+                                                                                        </a>
+                                                                                      </div>
+                                                                          </div>
+                                                                      </div>
+                                                                     
+                                                                        </div>
+                                          </div>
+                                             <div class="-text-center buttonfloat">
+                                                    <center> <a href="/event/maker"><button class="button shadow">View More Maker Exhibition</button></a></center>
+                                             </div>
+         
+         
+                                        </div>
+         
+                                    </div>
+                                    <div class="section">
+                                        <div class="container">
+                                          <div class="animated items" data-transition="bounce">
+                                    <div class="row shadow boxer" >
+                                        <b><h3 class="bolder">One Student One Arduino</h3></b><br>
+                                        <p id="minor1" class="" style="font-weight:400;font-size:13px">In continuation of the strides made in our first community project 'Ajumose', and with the support of everyone, GreenLab Microfactory has officially commenced her new project tagged 'One student One Arduino’. <span style="color:red;cursor:pointer" id="show1" >Read More...</span>
+                                       <span id="major1" class="animated items" data-transition="fadeIn" >This is a unique educational project to encourage innovations right from the cradle level, that is, from the primary education level in Nigeria.The 'One Student One Arduino' classes will be conducted triannually, that is, every 4 months (January to April, May to August, and September to December), with fresh participants enrolled at every new phase. To all those who supported us in making this project a reality, we say a very big THANK YOU!</span></p>
+                                        <div class="col-sm-3">
+                                         <div class="text-center shadow">
+                                               <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                                                       <div class="carousel-inner">
+                                                         <div class="carousel-item active" >
+                                                           <center><img class="d-block w-100" src="/uploads/<%= event1s1[0].eventImages[0].filename %>" height="190px" alt="First slide"></center>
+                                                         </div>
+                                                         <div class="carousel-item">
+                                                           <img class="d-block w-100" src="/uploads/<%= event1s1[0].eventImages[1].filename %>" height="190px" alt="Second slide">
+                                                         </div>
+                                                         <div class="carousel-item">
+                                                           <img class="d-block w-100" src="/uploads/<%= event1s1[0].eventImages[2].filename %>" height="190px" alt="Third slide">
+                                                         </div>
+                                                         <div class="carousel-item">
+                                                                <img class="d-block w-100" src="/uploads/<%= event1s1[0].eventImages[3].filename %>" height="190px" alt="Third slide">
+                                                              </div>
+                                                       </div>
+                                                       <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                         <span class="sr-only">Previous</span>
+                                                       </a>
+                                                       <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                         <span class="sr-only">Next</span>
+                                                       </a>
+                                                     </div>
+                                         </div>
+                                     </div>
+                                    
+                                       </div>
+                                       </div>
+
+                                       <div class="-text-center buttonfloat">
+                                        <center> <a href="/event/1s1"><button class="button shadow">View More One Student Oe Arduino</button></a></center>
+                                 </div>
+                                       </div>
+                                    </div>
+
+                            <div class="section">
+                                <div class="container">
+                                  <div class="animated items" data-transition="bounce">
+                                                
+                                                        <div class="row shadow boxer" >
+                                                                 <b><h3 class="bolder">TICK STEM Campaign</h3></b><br>
+                                                                 <p id="minor3" class="" style="font-weight:400;font-size:13px">TICK, which stands for Talk is Cheap Kit, is a STEM kit developed by Greenlab micro-factory to effectively propagate and educate primary and junior secondary school student about science and technology.
+                                                                       
+                                     <span style="color:red;cursor:pointer" id="show3" >Read More...</span>
+                                                                <span id="major3" class="animated items" data-transition="fadeIn" > TICK, equipped with 3D pens, circuit boards,sewing machines and even its own power generation system, is the miniaturized version of FabLab and other digital fabrication laboratories. Our intention is to find and nurture our Changemakers from the cradle.... Talk is Cheap - It's time to work</span></p>
+                                                                 <div class="col-sm-3">
+                                                                  <div class="text-center shadow">
+                                                                        <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                                                                                <div class="carousel-inner">
+                                                                                  <div class="carousel-item active" >
+                                                                                    <center><img class="d-block w-100" src="/uploads/<%= eventTick[0].eventImages[0].filename %>" height="190px" alt="First slide"></center>
+                                                                                  </div>
+                                                                                  <div class="carousel-item">
+                                                                                    <img class="d-block w-100" src="/uploads/<%= eventTick[0].eventImages[1].filename %>" height="190px" alt="Second slide">
+                                                                                  </div>
+                                                                                  <div class="carousel-item">
+                                                                                    <img class="d-block w-100" src="/uploads/<%= eventTick[0].eventImages[2].filename %>" height="190px" alt="Third slide">
+                                                                                  </div>
+                                                                                   <div class="carousel-item">
+                                                                                    <img class="d-block w-100" src="/uploads/<%= eventTick[0].eventImages[3].filename %>" height="190px" alt="Third slide">
+                                                                                  </div>
+                                                                                </div>
+                                                                                <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                                                                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                                  <span class="sr-only">Previous</span>
+                                                                                </a>
+                                                                                <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                                                                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                                  <span class="sr-only">Next</span>
+                                                                                </a>
+                                                                              </div>
+                                                                  </div>
+                                                              </div>
+                                                             
+                                                                </div>
+                                  </div>
+                                     <div class="-text-center buttonfloat">
+                                            <center> <a href="/event/tick"><button class="button shadow">View More TICK STEM</button></a></center>
+                                         </div>
+ 
+ 
+                                </div>
+ 
+                            </div>
+                                    
+                           
+                           
+                                    <div class="section">
+                                        <div class="container">
+                                          <div class="animated items" data-transition="bounce">
+                                                        
+                                                <div class="row shadow boxer" >
+                                                        <b><h3 class="bolder">Community Development Project</h3></b>
+                                                        <p id="minor" class="" style="font-weight:400;font-size:13px"> Ajumose in the Yoruba language means collaboration, which is the inspiration behind this landmark event. The goal of this workshop is to encourage the mentality of Do-It-Yourself (DIY) and grow the open / distributive economy in the Nigerian community.
+                                                                
+                                                        <div class="col-sm-3">
+                                                         <div class="text-center shadow">
+                                                               <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+                                                                       <div class="carousel-inner">
+                                                                         <div class="carousel-item active" >
+                                                                           <center><img class="d-block w-100" src="/uploads/<%= eventCommunity[0].eventImages[0].filename %>" height="190px" alt="First slide"></center>
+                                                                         </div>
+                                                                         <div class="carousel-item">
+                                                                           <img class="d-block w-100" src="/uploads/<%= eventCommunity[0].eventImages[1].filename %>" height="190px" alt="Second slide">
+                                                                         </div>
+                                                                         <div class="carousel-item">
+                                                                           <img class="d-block w-100" src="/uploads/<%= eventCommunity[0].eventImages[2].filename %>" height="190px" alt="Third slide">
+                                                                         </div>
+                                                                         <div class="carousel-item">
+                                                                           <img class="d-block w-100" src="/uploads/<%= eventCommunity[0].eventImages[3].filename %>" height="190px" alt="Third slide">
+                                                                         </div>
+                                                                       </div>
+                                                                       <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+                                                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                         <span class="sr-only">Previous</span>
+                                                                       </a>
+                                                                       <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+                                                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                         <span class="sr-only">Next</span>
+                                                                       </a>
+                                                                     </div>
+                                                         </div>
+                                                     </div>
+                                                    
+                                                       </div>
+                                          </div>
+                                             <div class="-text-center buttonfloat">
+                                                    <center> <a href="/event/community"><button class="button shadow">View More Community Project</button></a></center>
+                                                 </div>
+         
+         
+                                        </div>
+         
+                                    </div>
+
+
+                                    <%- include('./partials/publicationMobile'); %>
+                                   <div class="container  animated items" style="width:85%;border-radius:10px;margin-top:20px;" data-transition="zoomIn">
+                                    
+                           
+                                        <div class="" style="padding: 8px">
+                                               
+                                                <div class="text-center"  >
+                                                    <div class="" >
+                                                            <b><h5 class="text-center bolder">WANT TO PARTICIPATE ?</h5></b>
+                                                        <div class="">
+                                                                <p style="font-size:14px;line-height: 27px;" class="bolder"> Do you have a primary School or Junior secondary School and you would like us to educate your pupils?
+        
+                                                                    </p>
+        
+                                                                    <a href="/idea">
+                                                                            <button class="shadow button">Contact Us</button>
+                                                                       </a>
+                                                        </div>
+                                                   
+                                                    </div>
+                                                   
+                                                </div>
+                                        </div>
+                                
+                                 </div><br><br>
+
+
+                                 <div class="section">
+                                    
+                                        <div class="container"><br><br>
+                                            <b><h3 class="text-center" style="font-weight: bolder">Get in Touch Now!</h3></b>
+                                            <b><h3 class="text-center" style="font-weight: bolder">Feel free to drop us a line</h3></b></br>
+                                            <div class="row">
+                                               <!-- <div class="col-sm-3">
+                                                <div class="float-right guy" >
+                                                    <img src="img/guy.png" width="75%" class="float-right">
+                                                </div>
+                                               </div> -->
+                                               <div class="col-sm-6">
+                                                    <div class="d-flex shadow justify-content-center ">
+                                                           <div class=" form" style="width:100%">
+                                                                <div class=" form">
+                                                                    <form class="">
+                                                                            <!-- <div style="width:100%">
+                                                                                
+                                                                                <label>First Name</label><br>
+                                                                                <input type="text" width="100%">  
+                                                                            </div> -->
+                                                                         
+                                                                                <div>
+                                    
+                                                                                        <label>First Name</label><br>
+                                                                                        <input type="text" size="25" required  placeholder="First Name" height="600px">  
+                                                                                    
+                                                                                </div><br><br>
+                                    
+                                                                                <div>
+                                                                                        <label>Last Name</label><br>
+                                                                                        <input type="text" size="25" required placeholder="Last Name" height="600px">  
+                                                                                </div><br><br>
+                                                                            <div >
+                                                                                    <label>Your Email Address</label><br>
+                                                                                    <input type="text" size="55" required placeholder="abc@example.com" height="600px">  
+                                                                            </div><br><br>
+                                                                            <div >
+                                                                                <label>Which Related problems are you solving ?</label><br>
+                                                                                <select style="width:100%;" required>
+                                                                                    <option></option>
+                                                                                    <option>we are facing</option>
+                                                                                    <option>we are facing</option>
+                                                                                    <option>we are facing</option>
+                                                                                    <option>we are facing</option>
+                                                                                    <option>we are facing</option>
+                                                                                </select><br><br>
+                                                                            </div>
+                                    
+                                                                            <div>
+                                                                                <label>Type your message</label><br><br>
+                                                                                <textarea style="width: 100%" required></textarea>
+                                                                            </div><br><br>
+                                                                            <div>
+                                                                                <button class="button shadow">Submit</button>
+                                                                            </div>
+                                                                            
+                                                                    </form>
+                                                                </div>
+                                                           </div>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-sm-3">
+                                                    <div class="float-left">
+                                                        <img src="img/girl.png" class="girl" width="90%">
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div><br><br><br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                                    </div>
+
+                                 <%- include('./partials/footerMobile'); %>
+                     
+            
+                                    
+
+
+
+                                      
+                                        </div>
+       </div>
+
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+
+       <script>
+
+                const items = document.querySelectorAll('.items');
+
+                observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        const animationType = entry.target.dataset.transition
+                        if (entry.intersectionRatio > 0) {
+                        entry.target.classList.add( animationType )
+                        } else {
+                            console.log('out of view');
+                            entry.target.classList.remove( animationType )
+                        }
+                    });
+                });
+
+                items.forEach(image => {
+                    observer.observe(image);
+                });
+
+   </script>    
+       
+   <script>
+        
+          
+                const major = document.getElementById('major');
+                const minor = document.getElementById('minor');
+                const show = document.getElementById('show') ;
+
+                show.addEventListener('click', ()=>{
+                        major.style.display = 'block';
+                        //     minor.style.display = 'none';
+                        show.style.display ='none';
+                })
+
+
+                const major1 = document.getElementById('major1');
+                const minor1 = document.getElementById('minor1');
+                const show1 = document.getElementById('show1') ;
+
+                show1.addEventListener('click', ()=>{
+                        major1.style.display = 'block';
+                        //     minor.style.display = 'none';
+                        show1.style.display ='none';
+                })
+           
+
+                const major3 = document.getElementById('major3');
+                const minor3 = document.getElementById('minor3');
+                const show3 = document.getElementById('show3') ;
+
+                show3.addEventListener('click', ()=>{
+                        major3.style.display = 'block';
+                        //     minor.style.display = 'none';
+                        show3.style.display ='none';
+                })
+
+          
+           
+
+   </script>
+
+    </body>
+</html>

@@ -1,0 +1,236 @@
+<html>
+    <head>
+        <title>Greenlab-Microfactory | Testimonals</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" crossorigin="anonymous" />
+
+        <link rel="stylesheet"  type="text/css" href="css/bootstrap.css"  >
+        <link  rel="stylesheet"  type="text/css" href="css/style.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+
+    </head>
+    <body>
+        <div class="hide_phone">
+            <%- include('./partials/navbar'); %>
+
+
+             <div style="height:88%;overflow-y:scroll;">
+                <div class="section">
+                    <div class="container" >
+                           
+                        <div class="d-flex justify-content-center">
+                            
+                            <div class="text-center images animated items" data-transition='slideInDown'>  
+                               
+                                <img src="img/testimonial/1...png" class=""  width="70%" >
+    
+                            </div>
+                         
+    
+                          
+                        </div>
+                        <div class="row" >
+                            <div class="col-sm-2">
+    
+                            </div>
+                            <div class="col-sm-8 animated items " data-transition="slideInUp" >
+                                    <p class="text-center ab bolder"  ><br>
+                                        The rise of the technology era, and the persistent social, economic, and environmental sustainability issues in the developing economies especially in their rural settings indicated the need for a different approach to ensure sustainability and broad empowerment of individuals irrespective of their educational, geographical, and anthropological status.
+                                </p>
+                            </div>
+                            <div class="col-2">
+    
+                            </div>
+                               
+                        </div>
+                    </div> 
+                 </div>
+
+                 <div class="section">
+                    <div class="container" style="width: 60%">
+                            <% for(var i =0; i < testimonials.length; i++){ %>
+                               
+                            
+                               
+                          <div  >
+
+                                <% if(i % 2 == 0 ){ %>
+                                        <div class="row items animated" style="background-color: ;height:200px;" data-transition="slideInLeft">
+                                                <!-- <div class="d-flex justify-content-center"> -->
+                                                <div class="col-sm-3" style="background-image: url('/uploads/testimonial/<%= testimonials[i].testImage %>');background-size:cover;;border-radius: 20px 0px 0px 20px;">
+                                                    
+                                                </div>
+                                                <div class="col-sm-8 shadow" style="border-radius: 0px 20px 20px 0px; ">
+                                                        <div style="padding-top:7%;padding-left: 4%">
+                                                                <h4 class="bolder"><%= testimonials[i].testName %></h4>
+                                                                <p style="font-weight:600;line-height: 26px; ">"<%= testimonials[i].testimony %>"</p>
+                        
+                                                        </div>                                
+                                                </div>
+                                                <div class="col-sm-1">
+                
+                                                </div>
+                
+                
+                
+                                            </div><br><br>
+                                <% }else{ %>
+                                    <div class="row items animated " data-transition="slideInRight" style="background-color:;height:200px;" >
+                                            <!-- <div class="d-flex justify-content-center"> -->
+                                            <div class="col-sm-1">
+            
+                                            </div>
+                       
+                                            
+                                             <div class="col-sm-8 shadow" style="border-radius: 20px 0px 0px 20px; ">
+                                                    <div style="padding-top:7%;padding-left: 4%">
+                                                            <h4 class="bolder"><%= testimonials[i].testName %></h4>
+                                                            <p style="font-weight:600;line-height: 26px; ">"<%= testimonials[i].testimony %>"</p>
+                       
+                                                    </div>    
+                                             </div>
+                                             <div class="col-sm-3" style="background-image: url('/uploads/testimonial/<%= testimonials[i].testImage %>');background-size:cover;border-radius: 0px 20px 20px 0px;">
+                                            
+                                            </div>
+                                             
+            
+            
+                                         </div>
+                                    <% } %>
+
+                            
+                          </div><br><br>
+
+                          <% } %>
+
+
+
+                       
+                    </div>
+                 </div><br><br>
+                <!-- footer -->
+                 <%- include('./partials/footer'); %>
+             </div>
+                
+        </div>
+
+        <div class="hide_main">
+                <div class="main_content shadow-sm">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="header" >
+                                            <img src="img/Logo only.png" width="75%" >
+                                        </div>
+                                        <div class="navigation">
+                                            <i data-toggle="modal" data-target="#exampleModalLong" class="fa fa-bars" aria-hidden="true" data-dismiss="modal"></i> 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                </div>
+
+                     <div class="modal fade modale" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                                <button type="button" class="close navi" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true" class="float-right" style="margin-right: 6px;cursor: pointer">&times;</span>
+                                </button> 
+                            <div class="modal-body">
+                                <nav style="margin-top:2%">
+                                    <ul>
+                                        <li><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="/">Home</a></li>
+                                        <li><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="/about">about us</a></li>
+                                        <li  ><i class="fa fa-home " aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="/events">events / publications</a></li>
+                                        <li><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="/news">news</a></li>
+                                        <li class="emp-button"><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="#">Greenmarket</a></li><br>
+                                        <li class="button"><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;color:#56D19D"></i><a href="/contact">contact us</a></li>
+                                    </ul>
+                                    
+                                </nav>
+                            </div>
+                         
+                          </div>
+                    </div>
+                   
+               </div>
+                <div class="" style="overflow-y:scrollbar; height:89% ">
+                               
+                
+                        <div class="section" style="">
+                                <div class="container" style="padding:7%">
+                                   
+                                    
+                                        <center>   <b><h3 class="bolder text-center">Testimonial.</h3></b></center><br>
+            
+            
+            
+                                      <div style=""data-transition=''>
+                                                    <div class="    items  p-2" data-transition="slideInLeft"  >
+                                                           
+                                                        <% for(var i=0; i < testimonials.length; i++) { %>
+    
+                                                            <div class="card shadow animated items " data-transition="bounce" style="border-color:white" >
+                                                                    <img src="/uploads/testimonial/<%= testimonials[i].testImage %>" class="card-img-top" style="border-radius: 15px 15px 0px 0px;" alt="...">
+                                                                    <div class="card-body">
+                                                                    <p class="card-text"><%= testimonials[i].testimony %></p>
+                                                                    </div>
+                                                            </div><br><br>
+                                                        <%}%>
+                                                            
+
+                                                         
+                            
+                            
+                                                    </div>
+                
+                                          </div>
+        
+                                        
+                                   
+                                </div>
+                             </div>
+                               
+                             <%- include('./partials/footerMobile'); %>
+
+                                      
+                                        </div>
+       </div>
+
+
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+
+
+     
+
+        <script>
+          
+           
+
+                const items = document.querySelectorAll('.items');
+
+                    observer = new IntersectionObserver(entries => {
+                        entries.forEach(entry => {
+                            const animationType = entry.target.dataset.transition
+                            if (entry.intersectionRatio > 0) {
+                               entry.target.classList.add( animationType )
+                            } else {
+                                console.log('out of view');
+                                entry.target.classList.remove( animationType )
+                            }
+                        });
+                    });
+
+                    items.forEach(image => {
+                        observer.observe(image);
+                    });
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>Page Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+        .modal-backdrop {
+            background-color: #ccc;
+        }
+
+        .modal-backdrop.in {
+            opacity: 0.2;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 style="text-align:center;">Hello</h1>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-md">
+                <center><video id="myVideo" src="video/vid.mp4" autoplay style="border-radius:5px;width:100%;"></video></center>
+            </div>
+        </div>
+    </body>
+
+    </html>
+    <script>
+    $("#myModal").modal()
+    $(".container").hide();
+    document.getElementById('myVideo').addEventListener('ended', closeModal, false);
+
+    function closeModal() {
+        $(".container").show();
+        $('#myModal').modal('hide');
+    }
+    </script>
